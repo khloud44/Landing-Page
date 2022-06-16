@@ -67,8 +67,7 @@ const Controll = () => {
               <div className="col-md-6 d-flex  my-4">
         <div className="mt-2  d-flex align-items-center">
           <i
-          
-            class="fas fa-gear"
+            className="fas fa-gear"
             style={{ fontSize: "30px", color: "#2196F3" ,marginLeft:"30px" }}
           ></i>
           </div>

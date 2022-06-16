@@ -6,6 +6,9 @@ import About from './Components/About';
 import Details from './Components/Details';
 import Interface from './Components/Interface';
 import Controll from './Components/Controll';
+import Subscription from './Components/Subscription';
+import Block from './Components/Block';
+import Footer from './Components/Footer';
 
 function App() {
   return (
@@ -16,6 +19,9 @@ function App() {
       <Details/>
       <Interface/>
       <Controll/>
+      <Subscription/>
+      <Block/>
+      <Footer/>
     </div>
   );
 }
