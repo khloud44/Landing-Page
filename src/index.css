@@ -60,3 +60,15 @@ html {
   width: 100%;
   z-index: 1 !important;
 }
+
+
+.balloon::before{
+ content: '\e614';
+}
+
+
+
+.mockup-wrap .image-wrap {
+  max-width: 840px;
+  margin: 0 auto;
+}

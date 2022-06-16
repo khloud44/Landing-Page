@@ -10,8 +10,8 @@ const Header= () => {
                     <div className="col-lg-6  d-flex flex-column justify-content-center align-items-start">
                         <h1 className='mb-5 mainColor fw-bold '>إفتح موقعك الخاص للبيع في دقائق</h1>
                         <h5 className='subColor'>بنسهل عليك فتح ستور للعرض وإستقبال الطلبات</h5>
-                        <div className='d-flex justify-content-between flex-lg-row flex-column col-12 '>
-                            <input className='form-control ms-2 my-2' type="text" name="userName" placeholder='الاسم'  />
+                        <div className='d-flex justify-content-between flex-lg-row flex-column  '>
+                            <input className='form-control  ms-2 my-2' type="text" name="userName" placeholder='الاسم'  />
                             <input className='form-control ms-2 my-2 ' type="tetx" name="userPhone" placeholder='رقم الموبايل' />
                             <button type="submit" className='btn btn-primary text-white ms-2 my-2'>تسجيل</button>
                         </div>
