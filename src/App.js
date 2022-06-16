@@ -7,8 +7,8 @@ import Details from './Components/Details';
 import Interface from './Components/Interface';
 import Controll from './Components/Controll';
 import Subscription from './Components/Subscription';
-import Block from './Components/Block';
 import Footer from './Components/Footer';
+import Blog from './Components/Blog';
 
 function App() {
   return (
@@ -20,7 +20,7 @@ function App() {
       <Interface/>
       <Controll/>
       <Subscription/>
-      <Block/>
+      <Blog/>
       <Footer/>
     </div>
   );

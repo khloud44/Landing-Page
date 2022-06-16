@@ -16,8 +16,10 @@ img{
 }
 
 body {
-  font-family: 'Bitter', serif;
-  font-family: 'Lora', serif;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+}
+:not(i) {
+  font-family: ShoblyArabic, "Nexa Bold" !important;
 }
 
 code {
@@ -42,6 +44,9 @@ html {
   opacity: .7;
 }
 /* Header */
+
+
+
 .header{
   padding-top: 70px ;
   background:#fff url(https://static.shobly.com/landing/pattern.svg);
@@ -60,13 +65,14 @@ html {
   width: 100%;
   z-index: 1 !important;
 }
-
-
-.balloon::before{
- content: '\e614';
+.header-form {
+   z-index: 10;
 }
 
-
+.header-form input::placeholder { 
+  color:#ccc;
+  opacity: 1; 
+}
 
 .mockup-wrap .image-wrap {
   max-width: 840px;
@@ -164,3 +170,109 @@ html {
   margin: 10px 0;
 }
 
+.blog-img{
+  filter: grayscale(100%);
+  display: block;
+  border-radius: 6px;
+  box-shadow: 0 14px 26px -12px rgb(3 155 229 / 42%), 0 4px 23px 0px rgb(0 0 0 / 12%), 0 8px 10px -5px rgb(3 155 229 / 20%) !important;
+
+}
+.blog-content{
+  padding: 20px;
+}
+
+.blog-content h3{
+  color: #0063ff;
+  transition: all .3s;
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+.blog-content h3:hover{
+opacity: .5;
+}
+
+.blog-content a {
+  color: #3273dc;
+  cursor: pointer;
+  text-decoration: none;
+}
+.read-more {
+  display: flex;
+  align-items: center;
+  padding: 16px 0;
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #0063ff;
+}
+.read-more:hover{
+  color:rgb(29, 29, 29)
+}
+
+.post-image img{
+  display: block;
+  width: 100px;
+  min-width: 100px;
+  height: 100px;
+  min-height: 100px;
+  object-fit: cover;
+  border-radius: 6px;
+  box-shadow: 0 14px 26px -12px rgb(3 155 229 / 42%), 0 4px 23px 0px rgb(0 0 0 / 12%), 0 8px 10px -5px rgb(3 155 229 / 20%) !important;
+}
+.post-content {
+  flex-grow: 2;
+  padding: 0 20px;
+}
+.post-content h3 {
+  font-family: "Nexa Bold",sans-serif;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #0063ff;
+  margin-bottom: 6px;
+}
+.post-content p {
+  font-size: 1rem;
+  color: #999;
+}
+
+.blog-post {
+  display: -ms-flexbox;
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+.content-wrapper{
+  padding-top: 40px;
+  max-width: 1152px;
+  margin: 0 auto;
+}
+
+.post-content h3:hover{
+  opacity: .5;
+  }
+
+
+  .about-container{
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 40px 0 20px 0;
+    max-width: 780px;
+    margin: 0 auto;
+}
+.about-card{
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: 20px 20px 60px #d9d9d9, -20px -20px 60px #fff;
+  background: #fff;
+}
+
+.about-icons{
+  margin: 0 auto;
+
+}
+.about-icons img{
+max-width: 70%;
+max-height: 70%;
+}
