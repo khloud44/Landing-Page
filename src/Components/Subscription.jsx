@@ -11,7 +11,7 @@ const Subscription = () => {
                     
                 <div className="col-md-4 col-12 ">
                     <div className="pricing-box  p-3 m-2">
-                    <img src={reqSvgs['about1.svg']} alt="" className='w-100' />
+                    <img src={reqSvgs['products/about1.svg']} alt="" className='w-100' />
                     <h3 className='mb-2 mainColor'>تجريبي</h3>
                     <p>للمشاريع الصغيرة</p>
                     <div className="price">
@@ -28,7 +28,7 @@ const Subscription = () => {
                 
                 <div className="col-md-4 col-12">
                     <div className="pricing-box p-3 m-2">
-                    <img src={reqSvgs['about1.svg']} alt="" className='w-100' />
+                    <img src={reqSvgs['products/about1.svg']} alt="" className='w-100' />
                     <h3 className='mb-2 mainColor'>احترافي</h3>
                     <p>للمشاريع المتوسطة و الكبيرة</p>
                     <div className="price">
