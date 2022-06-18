@@ -16,7 +16,7 @@ const Footer = () => {
                     <div className="col-4">
                         <div className="pt-3 pb-5 text-end text-muted">
                             <a className="text-decoration-none fs-1 text-dark fw-bold" href="#">W<span className='text-danger'>i</span>nkez</a>
-                            <p>شوبلي خدمة تسهل على مستخدميها فتح موقعهم الخاص
+                            <p>وينكز خدمة تسهل على مستخدميها فتح موقعهم الخاص
 لعرض وبيع المنتجات والخدمات من خلال الإنترنت بسهولة.</p>
                             <p>تجدنا على منصات التواصل الآتية:</p>
                             <div className='d-flex justify-content-start align-items-center '>

@@ -16,7 +16,7 @@ const Details = () => {
                 <div className={`row my-5 align-items-center ${index % 2 ===0 ? "flex-row-reverse" : ""} ` }key={detail.id}>
                             <div className="col-md-6 col-12">
                                 <div className='d-flex flex-column justify-content-center align-items-start'>
-                                    <h2 className='mainColor fw-bold'>{detail.title}</h2>
+                                    <h2 className='mainColor text-end fw-bold'>{detail.title}</h2>
                                     <p className='subColor text-end'>{detail.description}</p>
                                 </div>
                             </div>
