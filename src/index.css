@@ -34,6 +34,17 @@ html {
 .nav{
   transition: all 0.8s;
 }
+
+.navbar-light .navbar-toggler {
+  color: rgba(0,0,0,.55) !important;
+  border-color: rgba(0,0,0,.1) !important;
+}
+.navbar-toggler {
+  padding: 0.1rem 0.5rem !important;
+}
+.navbar-toggler-icon {
+  width: 1em !important;
+}
 .btn-style{
   background-color: #d6eef3;
   color: #42757c !important;
@@ -77,7 +88,7 @@ html {
   z-index: 1 !important;
 }
 .header-form {
-   z-index: 10;
+    z-index: 10;
 }
 
 .header-form input::placeholder { 
