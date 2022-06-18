@@ -3,12 +3,12 @@ import reqSvgs from '../module';
 
 const About = () => {
     const [services , setServices] = useState([
-        {id:1 , image: 'about1.svg' , name : "منتجات تجارية"}
-        ,{id:2 , image: 'about2.svg' , name : "منتجات غذائية"}
-        ,{id:3 , image: "about3.svg" , name : "منتجات تقنية"}
-        ,{id:4 , image: "about4.svg" , name : "صناعات يدوية"}
-        ,{id:5 , image: "about5.svg" , name : "منتجات أخرى"}
-        ,{id:6 , image: "about6.svg" , name : "خدمات"}
+        {id:1 , image: 'products/about1.svg' , name : "منتجات تجارية"}
+        ,{id:2 , image: 'products/about2.svg' , name : "منتجات غذائية"}
+        ,{id:3 , image: "products/about3.svg" , name : "منتجات تقنية"}
+        ,{id:4 , image: "products/about4.svg" , name : "صناعات يدوية"}
+        ,{id:5 , image: "products/about5.svg" , name : "منتجات أخرى"}
+        ,{id:6 , image: "products/about6.svg" , name : "خدمات"}
     ])
     return (
         <div className='p-5 text-center  my-5 '>

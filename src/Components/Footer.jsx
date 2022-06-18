@@ -7,7 +7,7 @@ const Footer = () => {
                 <div className="footer-head flex-md-row flex-column ">
                     <h3 className='subColor'>هل لديك أسئلة عن الخدمة؟</h3>
                     <div className="head-section">
-                    <a className=" btn btn-primary text-white  py-2 px-4 btn-user" aria-current="page" href="#"> افتح موقع جديد</a>
+                    <a className=" btn btn-style btn-primary text-white  py-2 px-4 btn-user" aria-current="page" href="#"> افتح موقع جديد</a>
                     <a className=" btn  text-primary  py-2 px-4" aria-current="page" href="#"> تحدث معنا </a>
                     </div>
                 </div>

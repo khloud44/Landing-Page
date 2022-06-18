@@ -84,7 +84,7 @@ const Controll = () => {
         </div>
         </div>
       </div>
-      <a className="btn btn-primary  btn-lg text-white mb-5  py-1 px-5 " aria-current="page" href="#">فتح موقع جديد</a>
+      <a className="btn  btn-style btn-primary  btn-lg text-white mb-5  py-1 px-5 " aria-current="page" href="#">فتح موقع جديد</a>
 
     </div>
   );

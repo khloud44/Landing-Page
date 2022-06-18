@@ -26,7 +26,7 @@ const Details = () => {
                     </div>
                 ))}
 
-                <button type="submit" className='btn btn-primary px-5 py-2'>فتح موقع جديد</button>
+                <button type="submit" className='btn btn-style btn-primary px-5 py-2'>فتح موقع جديد</button>
         </div>
     )
 }
